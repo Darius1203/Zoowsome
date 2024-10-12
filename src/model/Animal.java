@@ -1,13 +1,10 @@
 package model;
 
-public class Animal {
+public abstract class Animal {
 
     private int nrOfLegs;
 
     private String name;
-
-    public Animal(){
-    }
 
     public Animal(int nrOfLegs, String name){
         this.name=name;
